@@ -1,0 +1,138 @@
+body {
+  max-width: 1200px;
+  margin: 0px auto;
+  background-color: #f3f4f8; }
+
+/*-------------------------------------
+-----------------VARIABLES------------*/
+.nav {
+  opacity: .6;
+  letter-spacing: 2px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  margin-top: 100px; }
+  .nav .option {
+    list-style: none;
+    cursor: pointer; }
+    .nav .option .icon {
+      padding-right: 15px;
+      line-height: 50px;
+      font-size: 20px; }
+      .nav .option .icon:hover {
+        color: white; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  margin: 50px auto; }
+
+.main-aside {
+  background-color: #f2959e;
+  width: 450px;
+  height: 700px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: "Nunito Sans", sans-serif;
+  padding-top: 80px; }
+
+.edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  line-height: 8px;
+  text-align: justify;
+  position: relative;
+  bottom: 0px;
+  left: -90px; }
+  .edit .editor {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px; }
+
+.title-aside {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  bottom: 10px;
+  right: -30px; }
+
+.author {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 3px; }
+
+.main-members {
+  background-color: #e0e0ea;
+  width: 1150px;
+  height: 700px;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px; }
+
+.wrap-editors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  .wrap-editors .container-card {
+    background-color: white;
+    width: 170px;
+    height: 210px;
+    margin: 10px;
+    padding: 22px;
+    border-radius: 5px; }
+    .wrap-editors .container-card .user-box {
+      flex-direction: column; }
+
+.presentations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px; }
+
+.member {
+  color: #f2959e;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 2px; }
+
+.country {
+  font-size: "Nunito Sans", sans-serif;
+  color: #afacac;
+  margin-top: 0px;
+  font-weight: 100; }
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px; }
+
+.rigth-title {
+  text-align: right;
+  padding-right: 30px;
+  line-height: 10px; }
+
+.left-title {
+  text-align: left;
+  padding-left: 30px;
+  line-height: 10px; }
+
+.title {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  line-height: 15px; }
+
+/*# sourceMappingURL=main.css.map */
