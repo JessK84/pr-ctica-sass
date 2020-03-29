@@ -6,24 +6,29 @@ body {
 /*-------------------------------------
 -----------------VARIABLES------------*/
 .nav {
-  opacity: .6;
-  letter-spacing: 2px;
-  font-size: 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: "Nunito Sans", sans-serif;
-  color: white;
-  margin-top: 100px; }
+  margin-top: 100px;
+  position: relative; }
   .nav .option {
     list-style: none;
-    cursor: pointer; }
+    cursor: pointer;
+    opacity: .6;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-family: "Nunito Sans", sans-serif;
+    color: white; }
+    .nav .option li:nth-child(2) {
+      font-weight: bolder;
+      opacity: 1; }
+    .nav .option li:nth-child(5) {
+      position: absolute;
+      top: 400px; }
     .nav .option .icon {
       padding-right: 15px;
       line-height: 50px;
       font-size: 20px; }
-      .nav .option .icon:hover {
-        color: white; }
 
 .container {
   display: flex;

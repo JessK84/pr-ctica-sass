@@ -11,32 +11,40 @@ $main-type: 'Nunito Sans', sans-serif;
 $member-size: 16px;
 $text-general: 'Open Sans', sans-serif;
 $size-general: 12px;
-$aside-color: white;
+$aside-color: rgba(255, 255, 255, 1);
 $icon-size: 20px;
 
-.nav {
-    opacity: .6;
-    letter-spacing: 2px;
-    font-size: $size-general;
+.nav { 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: $main-type;
-    color: $aside-color;
     margin-top: 100px;
-               
+    position: relative;
     .option {
         list-style: none;
         cursor: pointer;
+        opacity: .6;
+        letter-spacing: 2px;
+        font-size: $size-general;
+        font-family: $main-type;
+        color: $aside-color;
+        li {
+            &:nth-child(2) {
+                font-weight: bolder;
+                opacity: 1;
+    }
+            &:nth-child(5){
+                position: absolute;
+                top: 400px
+            }
+}          
             
         .icon {
             padding-right: 15px;
             line-height: 50px;
             font-size: $icon-size;
                 
-            &:hover {
-                color: $aside-color;
-            }
+           
         }
     }
 }
